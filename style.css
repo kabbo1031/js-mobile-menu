@@ -1,0 +1,38 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  margin:0;
+  color:white;
+}
+
+#open{
+  padding:10px 16px;
+  margin:20px;
+  font-size:18px;
+}
+
+#menu{
+  position:fixed;
+  top:0;
+  right:-260px;
+  width:260px;
+  height:100%;
+  background:#0f172a;
+  padding:20px;
+  transition:0.3s;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+#menu a{
+  cursor:pointer;
+}
+
+#close{
+  align-self:flex-end;
+  background:none;
+  border:none;
+  color:white;
+  font-size:20px;
+}
